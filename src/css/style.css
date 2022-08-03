@@ -10,10 +10,10 @@ body {
 #container {
     width: 920px;
     margin: 0 auto;
-    background-color: #333333;
+    background-color: #212121;
 }
 #header {
-    width: 920px;
+    width: 900px;
     margin: 0 auto;
 }
 #header h1 {
@@ -29,7 +29,7 @@ body {
 #nav li {
     flex: 1;
     border-style: solid;
-    border-color: #0A0A0A;
+    border-color: #333333;
     font-weight: bold;
     padding: 4px;
 }
