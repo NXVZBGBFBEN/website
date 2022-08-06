@@ -29,7 +29,10 @@ body {
 #nav li {
     flex: 1;
     border-style: solid;
-    border-color: #808080;
+    border-color: #0A0A0A;
     font-weight: bold;
     padding: 4px;
+}
+img {
+    vertical-align: bottom;
 }
