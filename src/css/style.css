@@ -31,7 +31,7 @@ a {
     display: flex;
     list-style-type: none;
     text-align: center;
-    margin: 4px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 #nav li {
     flex: 1;
