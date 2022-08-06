@@ -60,7 +60,7 @@ a {
 }
 .profile {
     margin: 0 0 10px 0;
-    border: solid 2px #000000;
+    border: solid 1px #000000;
 }
 .profile h2 {
     margin: 0;
@@ -73,7 +73,7 @@ a {
 }
 .maincontents {
     margin-bottom: 10px;
-    border: solid 2px #000000;
+    border: solid 1px #000000;
 }
 .maincontents h3 {
     margin: 0;
