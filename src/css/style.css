@@ -58,3 +58,25 @@ a {
     width: 250px;
     order: 3;
 }
+.profile {
+    margin: 0 0 10px 0;
+    border: solid 1px #000000;
+}
+.profile h3 {
+    margin: 0;
+    padding: 6px;
+    background-color: #242424;
+}
+.profile p {
+    margin: 16px 8px;
+    text-indent: 1em;
+}
+.maincontents {
+    margin-bottom: 10px;
+    border: solid 1px #000000;
+}
+.maincontents h4 {
+    margin: 0;
+    padding: 6px;
+    background-color: #242424;
+}
