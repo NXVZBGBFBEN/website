@@ -7,6 +7,12 @@ body {
     margin: 0;
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
 }
+img {
+    vertical-align: bottom;
+}
+a {
+    display: block;
+}
 #container {
     width: 920px;
     margin: 0 auto;
@@ -35,9 +41,20 @@ body {
     padding: 4px;
     margin: 0 2px;
 }
-img {
-    vertical-align: bottom;
+#main {
+    margin: 0 10px 10px 10px;
+    display: flex;
 }
-a {
-    display: block;
+#content {
+    width: 468px;
+    margin: 0 10px;
+    order: 2;
+}
+#submenu {
+    width: 160px;
+    order: 1;
+}
+#topic {
+    width: 250px;
+    order: 3;
 }
