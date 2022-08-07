@@ -80,3 +80,17 @@ a {
     padding: 6px;
     background-color: #242424;
 }
+#sitemap {
+    margin: 0 0 10px 0;
+    border: solid 2px #000000;
+}
+#sitemap h4 {
+    margin: 0;
+    padding: 6px;
+    background-color: #242424;
+}
+.sitemap-root {
+    margin: 12px;
+    padding: 0;
+    list-style: none;
+}
