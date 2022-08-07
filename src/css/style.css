@@ -89,8 +89,13 @@ a {
     padding: 6px;
     background-color: #242424;
 }
+#sitemap ul {
+	list-style: none;
+}
 .sitemap-root {
     margin: 12px;
     padding: 0;
-    list-style: none;
+}
+.sitemap-node {
+    margin: 0 0 0 1em;
 }
