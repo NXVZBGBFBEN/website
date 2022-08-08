@@ -131,11 +131,6 @@ img {
     margin: 15px;
 }
 
-#cc img {
-    width: 88px;
-    height: 31px;
-}
-
 #cc p {
     text-align: center;
     margin: 10px auto 0;
@@ -146,6 +141,11 @@ img {
     width: 88px;
 }
 
-#cc a {
+#ccimg a {
     display: block;
+}
+
+#ccimg img {
+    width: 88px;
+    height: 31px;
 }
