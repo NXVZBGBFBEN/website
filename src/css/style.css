@@ -133,6 +133,7 @@ img {
 
 #cc img {
     border-width: 0;
+    vertical-align: bottom;
 }
 
 #cc p {
