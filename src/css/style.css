@@ -14,10 +14,6 @@ img {
     vertical-align: bottom;
 }
 
-a {
-    display: block;
-}
-
 #container {
     width: 920px;
     margin: 0 auto;
@@ -32,6 +28,10 @@ a {
 #header h1 {
     margin: 0 auto;
     width: 894px;
+}
+
+#heasder a {
+    display: block;
 }
 
 #nav ul {
