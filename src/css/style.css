@@ -124,7 +124,7 @@ img {
 }
 
 #footer {
-    border-top: #555555;
+    border-top: solid 2px #555555;
     padding-bottom: 10px;
 }
 
