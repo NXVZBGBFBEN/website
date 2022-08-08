@@ -125,10 +125,7 @@ img {
 
 #footer {
     border-top: solid 2px #555555;
-}
-
-#cc {
-    margin: 15px;
+    padding: 15px;
 }
 
 #cc p {
