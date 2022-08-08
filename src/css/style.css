@@ -142,4 +142,9 @@ img {
 
 #cc h1 {
     margin: 0 auto;
+    width: 88px;
+}
+
+#cc a {
+    display: block;
 }
