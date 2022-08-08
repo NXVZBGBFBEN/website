@@ -134,3 +134,7 @@ img {
 #cc img {
     border-width: 0;
 }
+
+#cc p {
+    text-align: center;
+}
