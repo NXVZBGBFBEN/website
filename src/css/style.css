@@ -128,6 +128,6 @@ img {
     padding-bottom: 10px;
 }
 
-.cc {
-    text-align: center;
+#id {
+    margin: 0 auto;
 }
