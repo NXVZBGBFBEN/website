@@ -130,3 +130,7 @@ img {
 #cc {
     margin: 15px;
 }
+
+#cc img {
+    border-width: 0;
+}
