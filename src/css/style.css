@@ -122,3 +122,12 @@ a {
 .sitemap-node {
     padding-left: 1em;
 }
+
+#footer {
+    border-top: #555555;
+    padding-bottom: 10px;
+}
+
+#footer p {
+    text-align: center;
+}
