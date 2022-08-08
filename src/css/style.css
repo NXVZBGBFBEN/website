@@ -138,3 +138,7 @@ img {
 #cc p {
     text-align: center;
 }
+
+#cc a {
+    margin: auto;
+}
