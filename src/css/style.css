@@ -72,18 +72,18 @@ img {
     order: 3;
 }
 
-.profile {
+.welcome {
     margin: 0 0 10px 0;
     border: solid 2px #000000;
 }
 
-.profile h2 {
+.welcome h2 {
     margin: 0;
     padding: 6px;
     background-color: #242424;
 }
 
-.profile p {
+.welcome p {
     margin: 16px 8px;
     text-indent: 1em;
 }
