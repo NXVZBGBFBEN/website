@@ -72,6 +72,12 @@ img {
     order: 3;
 }
 
+.whatsnew h4 {
+    margin: 0;
+    padding: 6px;
+    background-color: #242424;
+}
+
 .welcome {
     margin: 0 0 10px 0;
     border: solid 2px #000000;
