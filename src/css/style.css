@@ -48,7 +48,18 @@ img {
     border-color: #000000;
     font-weight: bold;
     padding: 4px;
+}
+
+.navl {
+    margin: 0 2px 0 0;
+}
+
+.navc {
     margin: 0 2px;
+}
+
+.navr {
+    margin: 0 0 0 2px;
 }
 
 #main {
