@@ -83,6 +83,11 @@ img {
     order: 3;
 }
 
+.whatsnew {
+    margin-bottom: 10px;
+    border: solid 2px #000000;
+}
+
 .whatsnew h4 {
     margin: 0;
     padding: 6px;
