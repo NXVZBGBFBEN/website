@@ -80,13 +80,12 @@ img {
 
 .welcome {
     margin: 0 0 10px 0;
-    padding: 6px;
     border: solid 2px #000000;
 }
 
 .welcome h2 {
     margin: 0;
-    padding-bottom: 6px;
+    padding: 6px;
     background-color: #242424;
 }
 
@@ -96,13 +95,12 @@ img {
 
 .maincontents {
     margin-bottom: 10px;
-    padding: 6px;
     border: solid 2px #000000;
 }
 
 .maincontents h3 {
     margin: 0;
-    padding-bottom: 6px;
+    padding: 6px;
     background-color: #242424;
 }
 
