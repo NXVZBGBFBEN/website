@@ -90,6 +90,7 @@ img {
 }
 
 .welcome p {
+    margin: 10px;
     text-indent: 1em;
 }
 
@@ -105,6 +106,7 @@ img {
 }
 
 .maincontents p {
+    margin: 10px;
     text-indent: 1em;
 }
 
