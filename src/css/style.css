@@ -80,29 +80,34 @@ img {
 
 .welcome {
     margin: 0 0 10px 0;
+    padding: 6px;
     border: solid 2px #000000;
 }
 
 .welcome h2 {
     margin: 0;
-    padding: 6px;
+    padding-bottom: 6px;
     background-color: #242424;
 }
 
 .welcome p {
-    margin: 16px 8px;
     text-indent: 1em;
 }
 
 .maincontents {
     margin-bottom: 10px;
+    padding: 6px;
     border: solid 2px #000000;
 }
 
 .maincontents h3 {
     margin: 0;
-    padding: 6px;
+    padding-bottom: 6px;
     background-color: #242424;
+}
+
+.maincontents p {
+    text-indent: 1em;
 }
 
 #sitemap {
