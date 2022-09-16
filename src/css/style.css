@@ -35,7 +35,6 @@ img {
 }
 
 #nav ul {
-    padding: 0 1px;
     display: flex;
     list-style-type: none;
     text-align: center;
