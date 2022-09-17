@@ -34,6 +34,11 @@ img {
     display: block;
 }
 
+#header img {
+    width: 900px;
+    height: 150px;
+}
+
 #nav ul {
     padding: 0;
     display: flex;
