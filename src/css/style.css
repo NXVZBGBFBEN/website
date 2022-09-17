@@ -27,18 +27,12 @@ img {
 
 #header h1 {
     margin: 0 auto;
-    width: 894px;
+    width: 900px;
+    height: 100px;
 }
 
 #heasder a {
     display: block;
-}
-
-#header img {
-    display: block;
-    margin: 0 auto;
-    width: 900px;
-    height: 100px;
 }
 
 #nav ul {
