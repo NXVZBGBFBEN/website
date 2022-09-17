@@ -31,8 +31,13 @@ img {
     height: 100px;
 }
 
-#heasder a {
+#header a {
     display: block;
+}
+
+#header img {
+    width: 900px;
+    height: 100px;
 }
 
 #nav ul {
