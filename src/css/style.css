@@ -95,6 +95,10 @@ img {
     background-color: #242424;
 }
 
+.welcome h3 {
+    margin: 0 10px 5px;
+}
+
 .welcome p {
     margin: 10px;
     text-indent: 1em;
