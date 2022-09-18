@@ -101,8 +101,9 @@ img {
 }
 
 .welcome iframe {
+    display: block;
     width: 722px;
-    height: 250px;
+    height: 200px;
     border: 2px solid #555555;
 }
 
