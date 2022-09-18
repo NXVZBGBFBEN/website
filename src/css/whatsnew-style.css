@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #333333;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    border-top: 1px solid #555555;
+}
+
+li {
+    border-bottom: 1px solid #555555;
+}
