@@ -89,14 +89,10 @@ img {
     border: solid 2px #000000;
 }
 
-.welcome h2 {
+.welcome h2, h3 {
     margin: 0;
     padding: 6px;
     background-color: #242424;
-}
-
-.welcome h3 {
-    margin: 0 10px 5px;
 }
 
 .welcome p {
