@@ -12,10 +12,13 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    border-top: 1px solid #555555;
 }
 
 li {
     border-bottom: 1px solid #555555;
-    padding-top: 1px;
+}
+
+li:first-child {
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
 }
