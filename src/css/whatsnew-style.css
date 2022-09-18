@@ -17,6 +17,5 @@ ul {
 
 li {
     border-bottom: 1px solid #555555;
-    height: 1.3em;
-    padding-top: 0.3em;
+    padding-top: 1px;
 }
