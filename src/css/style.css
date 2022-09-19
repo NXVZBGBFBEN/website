@@ -166,3 +166,7 @@ img {
 #ccimg a {
     display: block;
 }
+
+table {
+    border: 1px solid #555555;
+}
