@@ -168,7 +168,7 @@ img {
 }
 
 table {
-    border: 1px solid #555555;
+    border-color: #555555;
 }
 
 .table-links {
