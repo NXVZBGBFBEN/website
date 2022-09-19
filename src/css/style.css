@@ -159,15 +159,10 @@ img {
 
 #ccimg {
     margin: 0 auto;
-    width: 88px;
+    width: 120px;
+    height: 42px;
 }
 
 #ccimg a {
     display: block;
-}
-
-#ccimg img {
-    margin: 0 auto;
-    width: 120px;
-    height: 42px;
 }
