@@ -167,6 +167,7 @@ img {
 }
 
 #ccimg img {
+    margin: 0 auto;
     width: 120px;
     height: 42px;
 }
