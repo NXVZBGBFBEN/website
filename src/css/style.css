@@ -167,12 +167,13 @@ img {
     display: block;
 }
 
-table {
+#accounts {
     border-collapse: collapse;
 }
 
-td {
+#accounts td {
     border: 1px solid #555555;
+    padding: 5px;
 }
 
 .table-links {
