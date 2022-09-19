@@ -168,7 +168,8 @@ img {
 }
 
 table {
-    border-color: #555555;
+    border: 1px solid #555555;
+    border-collapse: collapse;
 }
 
 .table-links {
