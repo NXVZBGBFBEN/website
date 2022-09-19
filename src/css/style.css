@@ -169,11 +169,12 @@ img {
 
 #accounts {
     border-collapse: collapse;
+    width: 726px;
 }
 
 #accounts td {
     border: 1px solid #555555;
-    padding: 5px;
+    padding: 2px 5px;
 }
 
 .table-links {
