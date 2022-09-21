@@ -167,12 +167,12 @@ img {
     display: block;
 }
 
-#accounts {
+.accounts {
     border-collapse: collapse;
     width: 726px;
 }
 
-#accounts td {
+.accounts td {
     border: 1px solid #777777;
     padding: 2px 5px;
 }
