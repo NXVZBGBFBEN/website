@@ -1,6 +1,7 @@
 mod pages;
 
 use pages::home::Home;
+use pages::status::not_found::NotFound;
 
 use yew::prelude::*;
 use yew_router::prelude::*;
@@ -9,11 +10,15 @@ use yew_router::prelude::*;
 enum Route {
     #[at("/")]
     Home,
+    #[not_found]
+    #[at("/404")]
+    NotFound,
 }
 
 fn switch(routes: Route) -> Html {
     match routes {
         Route::Home => html! {<Home />},
+        Route::NotFound => html! {<NotFound />}
     }
 }
 
