@@ -1,7 +1,5 @@
-mod pages;
-
-use pages::home::Home;
-use pages::status::not_found::NotFound;
+use website::pages::home::Home;
+use website::pages::status::not_found::NotFound;
 
 use yew::prelude::*;
 use yew_router::prelude::*;
