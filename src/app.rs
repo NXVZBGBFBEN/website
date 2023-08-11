@@ -3,9 +3,8 @@ use crate::pages::home::Home;
 use crate::pages::status::not_found::NotFound;
 use stylist::css;
 use stylist::yew::Global;
-use yew::prelude::function_component;
-use yew::{html, Html};
-use yew_router::prelude::{Routable, Switch};
+use yew::prelude::*;
+use yew_router::prelude::*;
 
 #[derive(Clone, Routable, PartialEq)]
 enum Route {
@@ -31,7 +30,7 @@ pub fn app() -> Html {
             background-color: #282C34;
             color: #ABB2BF;
         }
-    "#
+        "#
     );
     html! {
         <>
