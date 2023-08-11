@@ -1,34 +1,19 @@
-use website::pages::home::Home;
-use website::pages::status::not_found::NotFound;
+use website::app::App;
+use yew::prelude::function_component;
+use yew::{html, Html};
+use yew_router::BrowserRouter;
 
-use yew::prelude::*;
-use yew_router::prelude::*;
-
-#[derive(Clone, Routable, PartialEq)]
-enum Route {
-    #[at("/")]
-    Home,
-    #[not_found]
-    #[at("/404")]
-    NotFound,
-}
-
-fn switch(routes: Route) -> Html {
-    match routes {
-        Route::Home => html! {<Home />},
-        Route::NotFound => html! {<NotFound />}
-    }
-}
-
-#[function_component(App)]
+#[function_component(Main)]
 fn app() -> Html {
     html! {
-        <BrowserRouter>
-            <Switch<Route> render={switch} />
-        </BrowserRouter>
+        <>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </>
     }
 }
 
 fn main() {
-    yew::Renderer::<App>::new().render();
+    yew::Renderer::<Main>::new().render();
 }
