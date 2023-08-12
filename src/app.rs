@@ -1,13 +1,11 @@
 use crate::components::header::Header;
 use crate::pages::home::Home;
 use crate::pages::status::not_found::NotFound;
-use stylist::css;
-use stylist::yew::Global;
 use yew::prelude::*;
 use yew_router::prelude::*;
 
 #[derive(Clone, Routable, PartialEq)]
-enum Route {
+pub enum Route {
     #[at("/")]
     Home,
     #[not_found]
@@ -24,17 +22,8 @@ fn switch(routes: Route) -> Html {
 
 #[function_component(App)]
 pub fn app() -> Html {
-    let global_style = css!(
-        r#"
-        * {
-            background-color: #282C34;
-            color: #ABB2BF;
-        }
-        "#
-    );
     html! {
         <>
-            <Global css={global_style} />
             <Header />
             <Switch<Route> render={switch} />
         </>

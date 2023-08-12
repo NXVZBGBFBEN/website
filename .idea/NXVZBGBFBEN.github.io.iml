@@ -10,5 +10,6 @@
     <orderEntry type="library" name="style" level="application" />
     <orderEntry type="library" name="whatsnew-style" level="application" />
     <orderEntry type="library" name="style" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
   </component>
 </module>
