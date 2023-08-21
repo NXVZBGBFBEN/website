@@ -6,7 +6,7 @@ use yew_router::prelude::*;
 pub fn header() -> Html {
     html! {
         <>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <header class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <Link<Route> to={Route::Home} classes={classes!("navbar-brand")}>{"NXVZBGBFBEN"}</Link<Route>>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@ pub fn header() -> Html {
                         </form>
                     </div>
                 </div>
-            </nav>
+            </header>
         </>
     }
 }
