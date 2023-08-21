@@ -28,8 +28,8 @@ pub fn header() -> Html {
                                     {"Links"}
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="https://github.com/NXVZBGBFBEN">{"GitHub"}</a></li>
-                                    <li><a class="dropdown-item" href="https://twitter.com/NXVZBGBFBEN">{"X (Twitter)"}</a></li>
+                                    <li><a class="dropdown-item" href="https://github.com/NXVZBGBFBEN"><i class="bi bi-github"></i>{" GitHub"}</a></li>
+                                    <li><a class="dropdown-item" href="https://twitter.com/NXVZBGBFBEN"><i class="bi bi-twitter"></i>{" X (Twitter)"}</a></li>
                                 </ul>
                             </li>
                         </ul>
