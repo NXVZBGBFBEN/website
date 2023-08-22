@@ -1,3 +1,4 @@
+use crate::components::footer::Footer;
 use crate::components::header::Header;
 use crate::pages::home::Home;
 use crate::pages::status::not_found::NotFound;
@@ -26,6 +27,7 @@ pub fn app() -> Html {
         <>
             <Header />
             <Switch<Route> render={switch} />
+            <Footer />
         </>
     }
 }
