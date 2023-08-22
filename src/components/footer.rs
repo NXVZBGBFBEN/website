@@ -4,7 +4,7 @@ use yew::prelude::*;
 pub fn footer() -> Html {
     html! {
         <>
-            <footer class="text-center">
+            <footer class="mt-5 text-center">
                 <p>{"© 2023 NXVZBGBFBEN"}</p>
             </footer>
         </>
