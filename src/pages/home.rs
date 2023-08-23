@@ -20,14 +20,7 @@ pub fn home() -> Html {
                                 {"最近は言語処理系，数式処理系，教材作成などに興味があります．"}
                             </p>
                             <h4>{"Prefer:"}</h4>
-                            <a class="btn btn-link p-0" data-bs-toggle="tooltip" data-bs-trigger="focus" title="aaa">
-                                <img height="32" width="32" src="https://cdn.simpleicons.org/gentoo/212529/adb5bd"/>
-                            </a><a href="#" class="d-inline-block" data-bs-toggle="tooltip" title="通常のツールチップ">
-  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100">
-    <rect width="100%" height="100%" fill="#563d7c"/>
-    <circle cx="50" cy="50" r="30" fill="#007bff"/>
-  </svg>
-</a>
+                            <img height="32" width="32" src="https://cdn.simpleicons.org/gentoo/212529/adb5bd"/>
                             <img class="ms-2" height="32" width="32" src="https://cdn.simpleicons.org/firefoxbrowser/212529/adb5bd" />
                             <img class="ms-2" height="32" width="32" src="https://cdn.simpleicons.org/latex/212529/adb5bd" />
                             <img class="ms-2" height="32" width="32" src="https://cdn.simpleicons.org/rust/212529/adb5bd" />
