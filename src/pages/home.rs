@@ -11,6 +11,7 @@ pub fn home() -> Html {
                     </div>
                     <section class="row px-5">
                         <h2 class="mb-2">{"Profile"}</h2>
+                        <hr/>
                         <div class="col-md-4">
                             <img class="img-thumbnail d-block mx-auto" src="/assets/images/USERICON0-480x480.png" width="50%"/>
                         </div>
