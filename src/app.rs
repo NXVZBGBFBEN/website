@@ -1,7 +1,7 @@
 use crate::components::footer::Footer;
 use crate::components::header::Header;
 use crate::pages::home::Home;
-use crate::pages::status::not_found::NotFound;
+use crate::pages::not_found::NotFound;
 use yew::prelude::*;
 use yew_router::prelude::*;
 
