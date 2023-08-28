@@ -1,12 +1,12 @@
+use crate::pages;
 use yew::prelude::*;
 use yew_router::prelude::*;
-use crate::pages;
 
 #[function_component(Footer)]
 pub fn footer() -> Html {
     let footnote = match use_location().unwrap().path() {
-        "/" => pages::home::footnote(),
-        _ => None
+        "/" => Some(pages::home::footnote()),
+        _ => None,
     };
     html! {
         <>

@@ -45,8 +45,8 @@ pub fn home() -> Html {
     }
 }
 
-pub fn footnote() -> Option<Html> {
-    Some(html! {
+pub fn footnote() -> Html {
+    html! {
         <>
             <small class="mb-1">
                 {"The "}
@@ -66,5 +66,5 @@ pub fn footnote() -> Option<Html> {
                 <a href="https://foundation.rust-lang.org/policies/logo-policy-and-media-guide/">{"Guidelines"}</a>
             </small>
         </>
-    })
+    }
 }
