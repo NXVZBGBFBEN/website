@@ -20,7 +20,7 @@ pub fn home() -> Html {
                                 {"情報工学科所属の高専生です．"}<br/>
                                 {"最近は言語処理系，数式処理系，教材作成などに興味があります．"}
                             </p>
-                            <table class="table">
+                            <table class="table table-borderless">
                                 <tbody>
                                     <tr>
                                         <th class="align-middle">{"Favorite software"}</th>

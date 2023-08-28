@@ -11,6 +11,7 @@ pub fn footer() -> Html {
     html! {
         <>
             <footer class="mt-5 text-center">
+                <hr/>
                 if let Some(element) = footnote {
                     { element }
                 }
