@@ -18,7 +18,7 @@ pub fn header() -> Html {
                                 <Link<Route> to={Route::Home} classes={classes!("nav-link")}>{"Home"}</Link<Route>>
                             </li>
                             <li class="nav-item">
-                                <Link<Route> to={Route::NotFound} classes={classes!("nav-link", "disabled")}>{"Works"}</Link<Route>>
+                                <Link<Route> to={Route::Works} classes={classes!("nav-link")}>{"Works"}</Link<Route>>
                             </li>
                             <li class="nav-item">
                                 <Link<Route> to={Route::NotFound} classes={classes!("nav-link", "disabled")}>{"Hobbies"}</Link<Route>>
