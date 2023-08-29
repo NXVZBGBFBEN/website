@@ -9,7 +9,7 @@ pub fn home() -> Html {
                     <div class="text-center py-5 mb-3">
                         <h1>{"NXVZBGBFBEN"}</h1>
                     </div>
-                    <section class="row px-5">
+                    <section class="row">
                         <h2 class="mb-2">{"Profile"}</h2>
                         <hr/>
                         <div class="col-md-4">

@@ -6,7 +6,7 @@ pub fn ketcindy() -> Html {
         <>
             <div class="container">
                 <main>
-                    <section class="row px-5">
+                    <section class="row">
                         <div class="col">
                             <h1>{"KeTCindy"}</h1>
                             <hr/>
@@ -23,7 +23,7 @@ pub fn ketcindy() -> Html {
                             </p>
                         </div>
                     </section>
-                    <section class="row px-5">
+                    <section class="row">
                         <div class="col">
                             <h2>{"KeTCindyの利点"}</h2>
                             <p>
@@ -38,7 +38,7 @@ pub fn ketcindy() -> Html {
                             </p>
                         </div>
                     </section>
-                    <section class="row px-5">
+                    <section class="row">
                         <div class="col">
                             <h2>{"KeTCindyスタートブック"}</h2>
                             <p>
@@ -77,7 +77,7 @@ pub fn ketcindy() -> Html {
                             </table>
                         </div>
                     </section>
-                    <section class="row px-5">
+                    <section class="row">
                         <div class="col">
                             <h2>{"リンク集"}</h2>
                             <ul>
