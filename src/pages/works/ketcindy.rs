@@ -55,7 +55,7 @@ pub fn ketcindy() -> Html {
                                     </tr>
                                     <tr>
                                         <th>{"Cinderella"}</th>
-                                        <td><a href="https://cinderella.de/tiki-index.php" target="_blank" rel="noopener noreferrer">{"https://cinderella.de/tiki-index.php"}</a></td>
+                                        <td><a href="https://cinderella.de/" target="_blank" rel="noopener noreferrer">{"https://cinderella.de/"}</a></td>
                                     </tr>
                                     <tr>
                                         <th>{"Maxima"}</th>
