@@ -6,8 +6,8 @@ use yew_router::prelude::*;
 pub fn works() -> Html {
     html! {
         <>
-            <h1>{"works"}</h1>
-            <Link<Route> to={Route::KeTCindy} classes={classes!("nav-link")}>{"Works"}</Link<Route>>
+            <h1>{"Works"}</h1>
+            <Link<Route> to={Route::KeTCindy} classes={classes!("nav-link")}>{"KeTCindy"}</Link<Route>>
         </>
     }
 }
