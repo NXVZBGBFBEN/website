@@ -95,6 +95,15 @@ pub fn works() -> Html {
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">{"木更津高専 祇園祭 ホームページ"}</h5>
+                                    <p class="card-text">{"木更津高専の学園祭，「祇園祭」の公式ホームページ"}</p>
+                                    <a href="https://gionsai.jp" target="_blank" rel="noopener noreferrer">{"https://gionsai.jp"}</a>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                 </main>
             </div>
