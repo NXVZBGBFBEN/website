@@ -8,6 +8,7 @@ pub fn ketcindy() -> Html {
                 <main>
                     <section class="row">
                         <div class="col">
+                            <p>{"最終更新: 2023-11-19"}</p>
                             <h1>{"KeTCindy"}</h1>
                             <hr/>
                             <p>{"KeTCindyは，動的幾何学ソフトCinderellaを用いて図形を描き，TeXの図版ファイルを作るためのシステムである．"}</p>
@@ -42,8 +43,8 @@ pub fn ketcindy() -> Html {
                         <div class="col">
                             <h2>{"KeTCindyスタートブック"}</h2>
                             <p>
-                                {"ここでは，KeTCindyスタートブック(インストール手順の説明のみ)と，その補助となる外部リンクを紹介する．"}
-                            </p>
+                                {"ここでは，KeTCindyスタートブック(インストール手順の説明のみ)と，その補助となる外部リンクを紹介する．\
+                                質問等は nxvzbgbfben(at)gmail.com で受け付けている．((at)は@に置換すること．)"}</p>
                             <p>
                                 <a href="/assets/documents/KeTCindyBook.pdf" target="_blank" rel="noopener noreferrer">{"KeTCindyスタートブック"}</a>{" (PDF 376KB)"}
                             </p>
