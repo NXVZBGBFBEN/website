@@ -18,7 +18,12 @@ pub fn home() -> Html {
                         <div class="col-md-8">
                             <p class="lh-1.5">
                                 {"情報工学科所属の高専生です．"}<br/>
-                                {"最近は言語処理系，数式処理系，教材作成などに興味があります．"}
+                                {"最近はサイバーセキュリティ，言語・数式処理系，教材作成などに興味があります．"}
+                            </p>
+                            <p class="lh-1.5">
+                                {"所有資格・受賞歴等は"}
+                                <a href="https://www.linkedin.com/in/akimoto-sora/" target="_blank" rel="noopener noreferrer">{"LinkedInアカウント"}</a>
+                                {"に掲載しています．"}
                             </p>
                             <table class="table table-borderless">
                                 <tbody>
