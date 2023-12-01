@@ -13,7 +13,7 @@ pub fn home() -> Html {
                         <h2 class="mb-2">{"Profile"}</h2>
                         <hr/>
                         <div class="col-md-4">
-                            <img class="img-thumbnail d-block mx-auto" src="/assets/images/USERICON0-480x480.png" width="50%"/>
+                            <img class="img-thumbnail d-block mx-auto" src="/assets/images/USERICON2_2-1920x1920.png" width="50%"/>
                         </div>
                         <div class="col-md-8">
                             <p class="lh-1.5">
@@ -24,6 +24,11 @@ pub fn home() -> Html {
                                 {"所有資格・受賞歴等は"}
                                 <a href="https://www.linkedin.com/in/akimoto-sora/" target="_blank" rel="noopener noreferrer">{"LinkedInアカウント"}</a>
                                 {"に掲載しています．"}
+                            </p>
+                            <p class="lh-1.5">
+                                {"各種サービスで使用しているアイコン及びヘッダ画像は"}
+                                <a href="https://twitter.com/Ningen_ha_0roka" target="_blank" rel="noopener noreferrer">{"友人"}</a>
+                                {"が制作したものです．"}
                             </p>
                             <table class="table table-borderless">
                                 <tbody>
