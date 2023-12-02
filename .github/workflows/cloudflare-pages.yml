@@ -21,6 +21,7 @@ jobs:
         run: |
           rustup target add wasm32-unknown-unknown
           cargo install trunk
+          cargo check
           trunk build --release
 
       - name: Publish to Cloudflare Pages

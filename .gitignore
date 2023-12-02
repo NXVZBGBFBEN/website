@@ -174,3 +174,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/intellij,windows,rust,git
 
 dist/
+index.html

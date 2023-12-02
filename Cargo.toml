@@ -5,6 +5,9 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[build-dependencies]
+horrorshow = "0.8.4"
+
 [dependencies]
 stylist = { version = "0.12.0", features = ["yew_integration"] }
 yew = { version = "0.20.0", features = ["csr"] }
