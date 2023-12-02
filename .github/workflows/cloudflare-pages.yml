@@ -18,9 +18,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build
-        - run: rustup target add wasm32-unknown-unknown
-        - run: cargo install trunk
-        - run: trunk build --release
+        run: |
+          rustup target add wasm32-unknown-unknown
+          cargo install trunk
+          trunk build --release
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1
