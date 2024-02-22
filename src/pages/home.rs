@@ -1,3 +1,4 @@
+use crate::components::target_blank_link::*;
 use yew::prelude::*;
 
 #[function_component(Home)]
@@ -22,12 +23,12 @@ pub fn home() -> Html {
                             </p>
                             <p class="lh-1.5">
                                 {"所有資格・受賞歴等は"}
-                                <a href="https://www.linkedin.com/in/akimoto-sora/" target="_blank" rel="noopener noreferrer">{"LinkedInアカウント"}</a>
+                                <TargetBrankLink text={"LinkedInアカウント"} href={"https://www.linkedin.com/in/akimoto-sora/"} />
                                 {"に掲載しています．"}
                             </p>
                             <p class="lh-1.5">
                                 {"各種サービスで使用しているアイコン及びヘッダ画像は"}
-                                <a href="https://twitter.com/Ningen_ha_0roka" target="_blank" rel="noopener noreferrer">{"友人"}</a>
+                                <TargetBrankLink text={"友人"} href={"https://twitter.com/Ningen_ha_0roka"} />
                                 {"が制作したものです．"}
                             </p>
                             <table class="table table-borderless">
@@ -51,30 +52,6 @@ pub fn home() -> Html {
                     </section>
                 </main>
             </div>
-        </>
-    }
-}
-
-pub fn footnote() -> Html {
-    html! {
-        <>
-            <small class="mb-1">
-                {"The "}
-                <a href="https://www.gentoo.org/">{"Gentoo"}</a>
-                {" logo image is licensed under the "}
-                <a href="https://creativecommons.org/licenses/by-sa/2.5/">{"CC BY-SA 2.5"}</a>
-                {" license. cf. "}
-                <a href="https://www.gentoo.org/inside-gentoo/foundation/name-logo-guidelines.html">{"Guidelines"}</a>
-            </small>
-            <br/>
-            <small class="mb-1">
-                {"The "}
-                <a href="https://www.rust-lang.org/">{"Rust"}</a>
-                {" logo image is licensed under the "}
-                <a href="https://creativecommons.org/licenses/by-sa/2.5/">{"CC BY-SA 4.0"}</a>
-                {" license. cf. "}
-                <a href="https://foundation.rust-lang.org/policies/logo-policy-and-media-guide/">{"Guidelines"}</a>
-            </small>
         </>
     }
 }
