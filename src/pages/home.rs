@@ -28,7 +28,7 @@ pub fn home() -> Html {
                             </p>
                             <p class="lh-1.5">
                                 {"各種サービスで使用しているアイコン及びヘッダ画像は"}
-                                <TargetBrankLink text={"友人"} href={"https://twitter.com/Ningen_ha_0roka"} />
+                                <TargetBrankLink text={"友人"} href={"https://twitter.com/Nimono_blend"} />
                                 {"が制作したものです．"}
                             </p>
                             <table class="table table-borderless">
