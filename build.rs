@@ -28,6 +28,7 @@ pub fn main() {
                 );
                 link(data-trunk, rel="copy-dir", href="assets");
             }
+            body;
         }
     };
     let mut file = File::create("index.html").expect("Could not create `index.html`.");
