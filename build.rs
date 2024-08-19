@@ -4,33 +4,53 @@ use std::fs::File;
 use std::io::Write;
 
 pub fn main() {
+    /* generate `index.html` */
     let html = html! {
         : doctype::HTML;
-        html(lang="ja", data-bs-theme="dark") {
+        html(lang="ja", data-theme="dim") {
             head {
                 meta(charset="utf-8");
                 meta(name="viewport", content="width=device-width, initial-scale=1");
                 title : "NXVZBGBFBEN";
-                link(
-                    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
-                    rel="stylesheet",
-                    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM",
-                    crossorigin="anonymous"
-                );
-                script(
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js",
-                    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz",
-                    crossorigin="anonymous"
-                );
-                link(
-                    rel="stylesheet",
-                    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-                );
                 link(data-trunk, rel="copy-dir", href="assets");
+                link(data-trunk, rel="css", href="./tailwind.css");
             }
-            body;
+            body(class="flex flex-col min-h-screen");
         }
     };
-    let mut file = File::create("index.html").expect("Could not create `index.html`.");
-    writeln!(file, "{html}").expect("Could not write to `index.html`.")
+    let mut index_html = File::create("index.html").expect("Could not create `index.html`.");
+    writeln!(index_html, "{html}").expect("Could not write to `index.html`.");
+
+    /* generate `tailwind.config.js` */
+    let tailwind_config =
+    r#"
+    module.exports = {
+        content: [
+            "./src/**/*.rs",
+            "./index.html",
+        ],
+        theme: {
+            extend: {},
+        },
+        plugins: [
+            require("@tailwindcss/typography"),
+            require("daisyui"),
+        ],
+        daisyui: {
+            themes: ["dim"],
+        },
+    }
+    "#;
+    let mut tailwind_config_js = File::create("tailwind.config.js").expect("Could not create `tailwind.config.js`.");
+    writeln!(tailwind_config_js, "{tailwind_config}").expect("Could not write to `tailwind.config.js`.");
+
+    /* generate `input.css` */
+    let input =
+    r#"
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    "#;
+    let mut input_css = File::create("input.css").expect("Could not create `input.css`.");
+    writeln!(input_css, "{input}").expect("Could not write to `input.css`.");
 }

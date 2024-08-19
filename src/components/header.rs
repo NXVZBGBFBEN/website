@@ -6,40 +6,28 @@ use yew_router::prelude::*;
 pub fn header() -> Html {
     html! {
         <>
-            <header class="navbar navbar-expand-lg bg-body-tertiary mb-3">
-                <div class="container-fluid">
-                    <Link<Route> to={Route::Home} classes={classes!("navbar-brand")}>{"NXVZBGBFBEN"}</Link<Route>>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <Link<Route> to={Route::Home} classes={classes!("nav-link")}>{"Home"}</Link<Route>>
-                            </li>
-                            <li class="nav-item">
-                                <Link<Route> to={Route::Works} classes={classes!("nav-link")}>{"Works"}</Link<Route>>
-                            </li>
-                            <li class="nav-item">
-                                <Link<Route> to={Route::NotFound} classes={classes!("nav-link", "disabled")}>{"Hobbies"}</Link<Route>>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {"Links"}
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="https://github.com/NXVZBGBFBEN"><i class="bi bi-github"></i>{" GitHub"}</a></li>
-                                    <li><a class="dropdown-item" href="https://twitter.com/NXVZBGBFBEN"><i class="bi bi-twitter"></i>{" X (Twitter)"}</a></li>
-                                </ul>
-                            </li>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><Link<Route> to={Route::Home}>{"Home"}</Link<Route>></li>
+                            <li><Link<Route> to={Route::Works}>{"Works"}</Link<Route>></li>
+                            <li><Link<Route> to={Route::NotFound}>{"Hobbies"}</Link<Route>></li>
                         </ul>
-                        <form class="d-flex" role="search">
-                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                             <button class="btn btn-outline-success disabled" type="submit">{"Search"}</button>
-                        </form>
                     </div>
+                    <Link<Route> to={Route::Home} classes={classes!("btn", "btn-ghost", "text-2xl")}>{"NXVZBGBFBEN"}</Link<Route>>
                 </div>
-            </header>
+                <div class="navbar-end hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><Link<Route> classes={classes!("text-lg")} to={Route::Home}>{"Home"}</Link<Route>></li>
+                        <li><Link<Route> classes={classes!("text-lg")} to={Route::Works}>{"Works"}</Link<Route>></li>
+                        <li><Link<Route> classes={classes!("text-lg")} to={Route::NotFound}>{"Hobbies"}</Link<Route>></li>
+                    </ul>
+                </div>
+            </div>
         </>
     }
 }

@@ -175,3 +175,5 @@ $RECYCLE.BIN/
 
 dist/
 index.html
+input.css
+tailwind*

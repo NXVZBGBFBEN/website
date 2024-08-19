@@ -6,106 +6,104 @@ use yew_router::prelude::*;
 pub fn works() -> Html {
     html! {
         <>
-            <div class="container">
-                <main>
-                    <section class="row">
-                        <div class="col">
-                            <h1>{"Works"}</h1>
-                            <hr/>
-                            <p>{"作ったものや関わっているプロジェクトなどのまとめです．"}</p>
-                        </div>
-                    </section>
+            <div class="container mx-auto px-5 flex-grow">
+                <article class="prose max-w-none">
+                    <h1>{"Works"}</h1>
+                    <p>{"作ったものや関わっているプロジェクトなどのまとめです．"}</p>
                     <h2>{"個人開発"}</h2>
-                    <section class="row mb-3 g-2">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{"DigiTatt"}</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">{"第1回 Kloud Discord Bot Contest 参加"}</h6>
-                                    <p class="card-text">{"削除されたメッセージを検知して復活させるDiscord用bot"}</p>
-                                    <a href="https://github.com/NXVZBGBFBEN/DigiTatt" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"DigiTatt"}</h3>
+                                <div class="badge badge-outline h-auto">{"第1回 Kloud Discord Bot Contest 参加"}</div>
+                                <p>{"削除されたメッセージを検知して復活させるDiscord用bot"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/NXVZBGBFBEN/DigiTatt" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{"HSP3-IDEA "}<span class="badge rounded-pill bg-secondary">{"wip"}</span></h5>
-                                    <p class="card-text">{"プログラミング言語HSP3のIntellij系IDE用プラグイン"}</p>
-                                    <a href="https://github.com/NXVZBGBFBEN/HSP3-IDEA" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">
+                                    {"HSP3-IDEA"}
+                                    <div class="badge badge-secondary">{"wip"}</div>
+                                </h3>
+                                <p>{"プログラミング言語HSP3のIntellij系IDE用プラグイン"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/NXVZBGBFBEN/HSP3-IDEA" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{"MCServer-AutoBackup"}</h5>
-                                    <p class="card-text">{"Minecraftサーバ用自動バックアップスクリプト"}</p>
-                                    <a href="https://github.com/NXVZBGBFBEN/MCServer-AutoBackup" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"MCServer-AutoBackup"}</h3>
+                                <p>{"Minecraftサーバ用自動バックアップスクリプト"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/NXVZBGBFBEN/MCServer-AutoBackup" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{"Medley"}</h5>
-                                    <p class="card-text">{"LaTeXの構文を用いたCLI電卓"}</p>
-                                    <a href="https://github.com/NXVZBGBFBEN/Medley" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"Medley"}</h3>
+                                <p>{"LaTeXの構文を用いたCLI電卓"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/NXVZBGBFBEN/Medley" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
                     <h2>{"共同開発"}</h2>
-                    <section class="row g-2">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{"food-terror"}</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">{"Kloudハッカソン #2 アイデア賞"}</h6>
-                                    <p class="card-text">{"飯テロ画像を指定した日時に送信できるDiscord用bot"}</p>
-                                    <a href="https://github.com/NXVZBGBFBEN/food-terror" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"food-terror"}</h3>
+                                <div class="badge badge-outline h-auto">{"Kloudハッカソン #2 アイデア賞"}</div>
+                                <p>{"飯テロ画像を指定した日時に送信できるDiscord用bot"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/NXVZBGBFBEN/food-terror" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{"KeTCindy"}</h5>
-                                    <p class="card-text">{"動的幾何学ソフトCinderellaを用いてTeXの図版ファイルを作る"}</p>
-                                    <Link<Route> to={Route::KeTCindy}>{"Project page"}</Link<Route>>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"KeTCindy"}</h3>
+                                <p>{"動的幾何学ソフトCinderellaを用いてTeXの図版ファイルを作る"}</p>
+                                <div class="card-actions justify-end">
+                                    <Link<Route> classes={classes!("btn", "btn-primary")} to={Route::KeTCindy}>{"Project page"}</Link<Route>>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{"木更津高専統合管理BOT"}</h5>
-                                    <p class="card-text">{"木更津高専生向け多機能Discord用bot"}</p>
-                                    <a href="https://github.com/NITKC-DEV/Kisarazu-Multi-Manager" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"木更津高専統合管理BOT"}</h3>
+                                <p>{"木更津高専生向け多機能Discord用bot"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/NITKC-DEV/Kisarazu-Multi-Manager" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{"たすくりあ"}</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">{"Kloudハッカソン #3 参加"}</h6>
-                                    <p class="card-text">{"ボイスチャットに参加している時間を勉強時間とみなし，時間を記録するDiscord用bot"}</p>
-                                    <a href="https://github.com/starkoka/Tasclear" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"たすくりあ"}</h3>
+                                <div class="badge badge-outline h-auto">{"Kloudハッカソン #3 参加"}</div>
+                                <p>{"ボイスチャットに参加している時間を勉強時間とみなし，時間を記録するDiscord用bot"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/starkoka/Tasclear" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">{"木更津高専 祇園祭 ホームページ"}</h5>
-                                    <p class="card-text">{"木更津高専の学園祭，「祇園祭」の公式ホームページ"}</p>
-                                    <a href="https://gionsai.jp" target="_blank" rel="noopener noreferrer">{"https://gionsai.jp"}</a>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"木更津高専 祇園祭 ホームページ"}</h3>
+                                <p>{"木更津高専の学園祭，「祇園祭」の公式ホームページ"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://gionsai.jp" target="_blank" rel="noopener noreferrer">{"Website"}</a>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </main>
+                    </div>
+                </article>
             </div>
         </>
     }
