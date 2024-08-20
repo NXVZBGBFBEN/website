@@ -36,6 +36,24 @@ pub fn works() -> Html {
                         </div>
                         <div class="card bg-base-200 shadow-xl not-prose">
                             <div class="card-body">
+                                <h3 class="card-title text-2xl">{"life-viewer"}</h3>
+                                <p>{"Processingを使ったライフゲームの実装"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/NXVZBGBFBEN/life-viewer" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"MathLibre-docker"}</h3>
+                                <p>{"MathLibreの非公式Dockerfile"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/NXVZBGBFBEN/MathLibre-docker" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
                                 <h3 class="card-title text-2xl">{"MCServer-AutoBackup"}</h3>
                                 <p>{"Minecraftサーバ用自動バックアップスクリプト"}</p>
                                 <div class="card-actions justify-end">
@@ -52,9 +70,31 @@ pub fn works() -> Html {
                                 </div>
                             </div>
                         </div>
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">{"vim-cindyscript"}</h3>
+                                <p>{"CindyScriptのVim用シンタックスハイライトプラグイン"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/NXVZBGBFBEN/vim-cindyscript" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <h2>{"共同開発"}</h2>
                     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                        <div class="card bg-base-200 shadow-xl not-prose">
+                            <div class="card-body">
+                                <h3 class="card-title text-2xl">
+                                    {"Aconitum"}
+                                    <div class="badge badge-secondary">{"開発中止"}</div>
+                                </h3>
+                                <div class="badge badge-outline h-auto">{"Kloudハッカソン #4 参加"}</div>
+                                <p>{"Discord，LINE，Slack，Teams間でメッセージを共有する"}</p>
+                                <div class="card-actions justify-end">
+                                    <a role="button" class="btn btn-primary" href="https://github.com/EnterTeamNameHere/Aconitum" target="_blank" rel="noopener noreferrer">{"GitHub"}</a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card bg-base-200 shadow-xl not-prose">
                             <div class="card-body">
                                 <h3 class="card-title text-2xl">{"food-terror"}</h3>
