@@ -4,6 +4,7 @@ use yew_router::prelude::*;
 
 #[function_component(Header)]
 pub fn header() -> Html {
+    let route = use_route::<crate::app::Route>().unwrap_or_default();
     html! {
         <>
             <div class="navbar bg-base-100">
@@ -15,16 +16,14 @@ pub fn header() -> Html {
                         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link<Route> to={Route::Home}>{"Home"}</Link<Route>></li>
                             <li><Link<Route> to={Route::Works}>{"Works"}</Link<Route>></li>
-                            <li><Link<Route> to={Route::NotFound}>{"Hobbies"}</Link<Route>></li>
                         </ul>
                     </div>
                     <Link<Route> to={Route::Home} classes={classes!("btn", "btn-ghost", "text-2xl")}>{"NXVZBGBFBEN"}</Link<Route>>
                 </div>
                 <div class="navbar-end hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><Link<Route> classes={classes!("text-lg")} to={Route::Home}>{"Home"}</Link<Route>></li>
-                        <li><Link<Route> classes={classes!("text-lg")} to={Route::Works}>{"Works"}</Link<Route>></li>
-                        <li><Link<Route> classes={classes!("text-lg")} to={Route::NotFound}>{"Hobbies"}</Link<Route>></li>
+                        <li><Link<Route> classes={classes!("text-lg", if route == Route::Home {"active"} else {""})} to={Route::Home}>{"Home"}</Link<Route>></li>
+                        <li><Link<Route> classes={classes!("text-lg", if route == Route::Works {"active"} else {""})} to={Route::Works}>{"Works"}</Link<Route>></li>
                     </ul>
                 </div>
             </div>
